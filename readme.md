@@ -43,6 +43,21 @@ Result:
 }
 }
 ```
+#### Example 4 : api/outlet
+Result: 
+```
+{
+"success": false,
+"error": {
+"message": {
+"address": {
+"msg": "Please provide the address"
+}
+},
+"code": 1001
+}
+}
+```
 ### How to run?
 1) Download
 2) ` npm install`
